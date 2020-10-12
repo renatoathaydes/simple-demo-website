@@ -1,0 +1,61 @@
+@keyframes panning {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  margin: 0;
+}
+
+body > header {
+  font-size: 2em;
+  padding: 4em;
+  background-position: 0 43%;
+  background-image: url("/images/image1.jpeg");
+  background-size: 100%;
+  color: white;
+  animation: panning 60s infinite linear;
+}
+
+main {
+  margin: auto;
+  padding: 0 1em 0 1em;
+  min-height: 20em;
+  max-width: 60em;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding-right: 1em;
+  margin-top: -2.4em;
+}
+
+nav a {
+  color: yellow;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav > ul > li {
+  display: inline;
+  margin-left: 1em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: darkcyan;
+}

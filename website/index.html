@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+.northern-lights {
+  font-family: "Tangerine", serif;
+  font-size: 24px;
+}
+.northern-lights > header > h2 {
+  font-family: "Tangerine", serif;
+  font-size: 48px;
+  color: gray;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+.gallery figcaption {
+  margin: 7px 0 0 15px;
+}
+.gallery img {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+    </style>
+<body>
+<header id="header">My Website</header>
+<nav>
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/blogs/index.html">Blog</a></li>
+    </ul>
+</nav>
+<main>
+    <h1>Hello</h1>
+    <p>This is my website.</p>
+    <hr>
+    <section class="northern-lights">
+        <header>
+            <h2>Northern Lights Gallery</h2>
+        </header>
+        <div class="gallery">
+            <figure>
+                <img alt="northern lights over mountains" src="/images/pexels-benjamin-suter-3617500.jpg">
+                <figcaption>Beautiful lake and mountains</figcaption>
+            </figure>
+            <figure>
+                <img alt="northern lights over snow field" src="/images/pexels-pixabay-41004.jpg">
+                <figcaption>Bright Northern Lights</figcaption>
+            </figure>
+            <figure>
+                <img alt="northern lights over snowy mountain" src="/images/pexels-tobias-bjorkli-1559817.jpg">
+                <figcaption>Incredible colors</figcaption>
+            </figure>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <p>Website created in blog post <a href="https://renato.athaydes.com/how-to/web/html.html">
+            How to create a website from scratch</a>
+        </p>
+    </section>
+</main>
+<footer>
+    Follow me on <a href="https://twitter.com/renatoathaydes">Twitter</a>!
+</footer>
+</body>
